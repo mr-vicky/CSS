@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+</head>
+<style>
+    .container
+    {
+        /* background-color: red; */
+        height: 500px;
+        width: 100%;
+        border: 2px solid black;
+        display: flex;
+
+        /* Flex Properties : flex-direction */
+        flex-direction: row;
+        /* flex-direction: row-reverse;  */
+        /* flex-direction: column;  */
+        /* flex-direction: column-reverse;  */
+
+        /* flex-wrap:wrap ; */
+        /* flex-wrap: nowrap; */
+
+        /* Short hand for flex properties */
+        /* flex-flow: column wrap; */ 
+
+        /* justify-content: space-around; */
+        justify-content: space-evenly;
+        /* justify-content: space-between; */
+
+        align-items: center;
+        /* align-items: flex-start; */
+        /* align-items: flex-end; */
+
+        
+    }
+
+    .box{
+       background-color: greenyellow    ;
+       border: 2px solid red;
+       margin: 5px;
+       padding: 10px;
+       height: 200px;
+       width: 200px;
+    }
+
+    #box-1{
+        /* order: 3;
+        flex-grow: 1; */
+        /* flex-shrink: 20; */
+        /* flex-basis: 500px; */
+    }
+
+    #box-2{
+        /* order: 2;
+        flex-grow: 2; */
+        /* flex-basis:500px; */
+        
+    }
+
+    #box-3{
+        /* order: 1;
+        flex-grow: 3; */
+        /* align-self: flex-start; */
+    }
+
+
+
+</style>
+<body>
+    <h1>Flexbox</h1>
+    <div class="container">
+        <div class="box" id="box-1">First Box</div>
+        <div class="box" id="box-2">Second Box</div>
+        <div class="box" id="box-3">Third Box</div>
+        <!-- <div class="box" id="box-4">Fourth Box</div>
+        <div class="box" id="box-5">Fifth Box</div>
+        <div class="box" id="box-6">Sixth Box</div> -->
+    </div>
+
+</body>
+</html>

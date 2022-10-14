@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear</title>
+    <style>
+        .container{
+            
+            background-color: rgb(204, 245, 204);
+            width: 1058px;
+            height: 516px;
+            margin: auto;
+            margin-top: 50px;
+            text-align: justify;
+            padding: 25px;
+            border: 5px solid black;
+        }
+
+        .div{
+            padding: 20px;
+            margin: 20px;
+            width: 500px;
+        }
+
+        #fruit{
+            background-color: rgb(148, 148, 245);
+            float: left;
+            width: 448px;
+        }
+
+        #computers{
+            background-color: yellow;
+            float: right;
+            width: 448px;
+        }
+
+        #Stationary{
+            background-color: red;
+            /* float: left; */
+            width: 977px;
+            clear: left;
+
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+
+
+        <div id="fruit" class="div">
+            <h1>Fruits</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, laboriosam debitis in dolores tenetur possimus veritatis enim eius voluptas reprehenderit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quasi illo perspiciatis iusto dicta eum quaerat enim ut atque fugiat!</p>
+        </div>
+        <div id="computers" class="div">
+            <h1>computers</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, laboriosam debitis in dolores tenetur possimus veritatis enim eius voluptas reprehenderit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quasi illo perspiciatis iusto dicta eum quaerat enim ut atque fugiat!</p>
+        </div>
+        <div id="Stationary" class="div">
+            <h1>Stationary</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, laboriosam debitis in dolores tenetur possimus veritatis enim eius voluptas reprehenderit!. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem quasi illo perspiciatis iusto dicta eum quaerat enim ut atque fugiat!</p>
+        </div>
+
+    </div>
+</body>
+</html>

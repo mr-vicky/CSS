@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>More on Selectors</title>
+</head>
+<style>
+    h1{
+        background-color: black;
+        color: white;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    div{
+        font-size: 20px;
+        color: black;
+    }
+
+    /* 01: this css will be applied to all the paragraphs which are inside DIV */
+    div p{
+        background-color: rgb(218, 139, 139);
+    }
+
+    /* this CSS will be applied to all the p which are inside li which is inside DIV */ 
+    div li p{
+        background-color: green;
+    }
+
+    /* 03: this CSS will be applied to all the paragraphs which come immediatly after DIV */
+    div > p{
+        background-color: red;
+    }
+
+    /* 04: this CSS will be applied to all the paragraphs before which DIV comes */
+    div + p{
+        background-color: violet;
+    }
+
+    
+</style>
+<body>
+    <h1>More in CSS Selectors</h1>
+    <div class="container">
+        <p>This is the First paragraph inside DIV</p>
+        <div class="row">
+            <p>this is the 2nd paragraph which is inside DIV inside DIV</p>
+        </div>
+        <ul>
+            <li><p>This is the 3rd paragraph inside the LI inside DIV inside the DIV</p></li>
+        </ul>
+    </div>
+     <p>This is the outer paragraph</p>
+    
+</body>
+</html>
