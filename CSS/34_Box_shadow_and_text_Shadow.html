@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Shadow and Text shadow</title>
+</head>
+<style>
+    h1{
+        text-align: center;
+        font-size: 4rem;
+        text-shadow: 4px 4px 1px yellow;
+    }
+
+    .container{
+        /* background-color: tomato; */
+        display: flex;
+    }
+
+    .box{
+        background-color: rgb(248, 141, 122);
+        margin: 20px;
+        padding: 25px;
+    }
+
+    #box-1{
+        box-shadow: 10px 10px black;
+    }
+
+    #box-2{
+        box-shadow: -10px -10px grey;
+    }
+
+    #box-3{
+        box-shadow: 10px 10px 15px darkgreen;
+    }
+
+    #box-4{
+        box-shadow: 15px 15px 5px 5px grey;
+    }
+
+    #box-5{
+        font-weight: bolder;
+        text-shadow: 1px 1px 1px white;
+    }
+
+
+    
+</style>
+<body>
+    <h1>Box and Text Shadow</h1>
+    <div class="container">
+        <div class="box" id="box-1">
+        <h2>Shadow at right and bottom side</h2>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis libero minima neque ea sed doloribus dicta? Consectetur consequatur rem, error quas nulla voluptatum harum. Aperiam ipsa minima unde! Accusantium reprehenderit, omnis natus molestias ducimus explicabo recusandae sapiente architecto saepe odit tempora magni ad nobis laboriosam obcaecati vitae.</p>
+        </div>
+
+        <div class="box" id="box-2">
+        <h2>Shadow at Left and top side</h2>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis libero minima neque ea sed doloribus dicta? Consectetur consequatur rem, error quas nulla voluptatum harum. Aperiam ipsa minima unde! Accusantium reprehenderit, omnis natus molestias ducimus explicabo recusandae sapiente architecto saepe odit tempora magni ad nobis laboriosam obcaecati vitae.</p>
+        </div>
+
+        <div class="box" id="box-3">
+        <h2>Shadow with Blur radius</h2>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis libero minima neque ea sed doloribus dicta? Consectetur consequatur rem, error quas nulla voluptatum harum. Aperiam ipsa minima unde! Accusantium reprehenderit, omnis natus molestias ducimus explicabo recusandae sapiente architecto saepe odit tempora magni ad nobis laboriosam obcaecati vitae.</p>
+        </div>
+
+        <div class="box" id="box-4">
+        <h2>Shadow with spread Radius</h2>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis libero minima neque ea sed doloribus dicta? Consectetur consequatur rem, error quas nulla voluptatum harum. Aperiam ipsa minima unde! Accusantium reprehenderit, omnis natus molestias ducimus explicabo recusandae sapiente architecto saepe odit tempora magni ad nobis laboriosam obcaecati vitae.</p>
+        </div>
+
+        <div class="box" id="box-5">
+        <h2>Text Shadow</h2>    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis libero minima neque ea sed doloribus dicta? Consectetur consequatur rem, error quas nulla voluptatum harum. Aperiam ipsa minima unde! Accusantium reprehenderit, omnis natus molestias ducimus explicabo recusandae sapiente architecto saepe odit tempora magni ad nobis laboriosam obcaecati vitae.</p>
+        </div>
+
+    </div>
+</body>
+</html>

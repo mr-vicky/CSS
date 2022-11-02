@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box shadow and Text shadow</title>
+</head>
+<style>
+    h1{
+        color: black;
+        text-align: center;
+        font-weight: bolder;
+        font-size: 3rem;
+    }
+
+    h2{
+        text-align: center;
+    }
+    .container{
+        display: flex;
+        /* background-color: black; */
+    }
+    
+    .card{  
+        background-color: aqua;
+        padding: 20px 10px;
+        margin: 30px 20px;
+    }
+
+    
+    #card-1{  
+        box-shadow: 10px 15px grey;
+    }
+    
+    
+    #card-2{  
+        box-shadow: -10px -10px grey;
+    }
+    
+    #card-3{  
+        box-shadow: 10px 15px 20px black;
+    }
+
+    #card-4{  
+        box-shadow: 10px 10px 20px 10px rgb(83, 152, 50);
+    }
+    
+    #card-5 h2{
+        text-shadow: 5px 3px white;
+    }
+
+    #card-6 h2{
+        text-shadow: -6px -3px white;
+    }
+</style>
+<body>
+    <h1>Box Shadow and text Shadow</h1>
+    <div class="container">
+        <div class="card" id="card-1">
+            <h2>Downside shadow</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veritatis aut voluptates laboriosam soluta esse corrupti assumenda atque eius ratione, nulla modi est id necessitatibus! Dolor optio rerum repellendus perferendis ea modi cumque neque </p>
+        </div>
+
+        <div class="card" id="card-2">
+             <h2>Upside shadow</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veritatis aut voluptates laboriosam soluta esse corrupti assumenda atque eius ratione, nulla modi est id necessitatibus! Dolor optio rerum repellendus perferendis ea modi cumque neque </p> 
+            </div>
+        <div class="card" id="card-3"> 
+            <h2>Shadow with blur radius</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veritatis aut voluptates laboriosam soluta esse corrupti assumenda atque eius ratione, nulla modi est id necessitatibus! Dolor optio rerum repellendus perferendis ea modi cumque neque </p>
+        </div>
+
+        <div class="card" id="card-4">
+            <h2>Shadow with Spread radius</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veritatis aut voluptates laboriosam soluta esse corrupti assumenda atque eius ratione, nulla modi est id necessitatibus! Dolor optio rerum repellendus perferendis ea modi cumque neque </p>
+        </div>
+
+        <div class="card" id="card-5">
+             <h2>Text shadow</h2>
+             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veritatis aut voluptates laboriosam soluta esse corrupti assumenda atque eius ratione, nulla modi est id necessitatibus! Dolor optio rerum repellendus perferendis ea modi cumque neque </p> 
+            </div>
+        <div class="card" id="card-6"> 
+            <h2>Text</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatibus veritatis aut voluptates laboriosam soluta esse corrupti assumenda atque eius ratione, nulla modi est id necessitatibus! Dolor optio rerum repellendus perferendis ea modi cumque neque </p>
+        </div>
+
+
+        
+    </div>
+    
+</body>
+</html>

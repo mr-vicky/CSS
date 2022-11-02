@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Properties</title>
+</head>
+<style>
+    /* .container{
+        
+    } */
+
+    #box{
+        height: 200px;
+        width: 200px;
+        background-color: yellow;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition-duration: 2s;
+        transition-timing-function: ease-in;
+    }
+
+    #box:hover{
+        height: 300px;
+        width: 300px;
+        font-size: 2rem;
+        font-weight: bolder;
+        background-color: rgb(247, 119, 119);
+        border: 2px solid black;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 10px 10px 5px black;
+    }
+
+
+</style>
+<body>
+    <h1>CSS Transitions</h1>
+    <div class="container">
+        <div id="box">
+            <h3>BOX</h3>
+        </div>
+    </div>
+</body>
+</html>
